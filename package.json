@@ -1,0 +1,33 @@
+{
+  "name": "kantongku",
+  "version": "1.0.0",
+  "description": "website ewallet slicing",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"browser-sync start --server dist --files dist --port 3000\" \"npx tailwindcss -i src/input.css -o dist/assets/css/output.css --watch\"",
+    "build": "npx tailwindcss -i src/input.css -o dist/assets/css/output.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lordfroze/kantongku.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lordfroze/kantongku/issues"
+  },
+  "homepage": "https://github.com/Lordfroze/kantongku#readme",
+  "devDependencies": {
+    "@egoist/tailwindcss-icons": "^1.9.0",
+    "@iconify-json/material-symbols": "^1.2.34",
+    "browser-sync": "^3.0.4",
+    "concurrently": "^9.2.1",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "tailwindcss": "^4.1.13"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13"
+  }
+}
