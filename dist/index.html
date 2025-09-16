@@ -8,11 +8,20 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Red+Rose:wght@300..700&display=swap" rel="stylesheet">
+<title>Index Component</title>
 </head>
 <body>
-  <h1 class="text-icon-xl font-bold underline bg-brands-light-green font-sans">Hello world!</h1>
-  <p class="font-brand">ini adalah custom icon</p>
-<span class="i-material-symbols-home"></span>
-
+  <div class="container max-w-[768px]">
+    <div class="h-min-screen bg-blue-50 px-4 pb-12">
+      <!-- App bar -->
+       <div class="flex items-center gap-5 bg-white p-4 text-gray-900">
+        <a href="#" class="hover:text-gray-400 focus:outline-none focus:ring-2 focus:ring-green-400" onclick="history.back()">
+          <span class="i-material-symbols-arrow-left-alt-rounded text-icon-md block"></span>
+        </a>
+        <p class="text-lg font-semibold">Untitled</p>
+       </div>
+      <!-- App bar end -->
+    </div>
+  </div>
 </body>
 </html>
